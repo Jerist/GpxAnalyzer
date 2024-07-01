@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <metadata>
+        <name>Test Points GPX</name>
+        <time>2024-06-10T12:00:00Z</time>
+    </metadata>
+    <trk>
+        <name>Test Track</name>
+        <trkseg>
+            <trkpt lat="51.6750" lon="39.2089">
+                <ele>150.0</ele>
+                <time>2024-06-10T12:00:00Z</time>
+                <extensions>
+                    <gpxtpx:TrackPointExtension>
+                        <gpxtpx:hr>80</gpxtpx:hr>
+                        <gpxtpx:temp>20</gpxtpx:temp>
+                    </gpxtpx:TrackPointExtension>
+                </extensions>
+            </trkpt>
+            <trkpt lat="51.6745" lon="39.2085">
+                <ele>155.0</ele>
+                <time>2024-06-10T12:10:00Z</time>
+                <extensions>
+                    <gpxtpx:TrackPointExtension>
+                        <gpxtpx:hr>85</gpxtpx:hr>
+                        <gpxtpx:temp>22</gpxtpx:temp>
+                    </gpxtpx:TrackPointExtension>
+                </extensions>
+            </trkpt>
+            <trkpt lat="51.6740" lon="39.2080">
+                <ele>160.0</ele>
+                <time>2024-06-10T12:20:00Z</time>
+                <extensions>
+                    <gpxtpx:TrackPointExtension>
+                        <gpxtpx:hr>90</gpxtpx:hr>
+                        <gpxtpx:temp>24</gpxtpx:temp>
+                    </gpxtpx:TrackPointExtension>
+                </extensions>
+            </trkpt>
+            <trkpt lat="51.6735" lon="39.2075">
+                <ele>165.0</ele>
+                <time>2024-06-10T12:30:00Z</time>
+                <extensions>
+                    <gpxtpx:TrackPointExtension>
+                        <gpxtpx:hr>95</gpxtpx:hr>
+                        <gpxtpx:temp>26</gpxtpx:temp>
+                    </gpxtpx:TrackPointExtension>
+                </extensions>
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>
