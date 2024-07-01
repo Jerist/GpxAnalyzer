@@ -1,7 +1,12 @@
-package ru.bulavin;
+package ru.bulavin.utils;
 
+import io.jenetics.jpx.GPX;
+import io.jenetics.jpx.Track;
+import io.jenetics.jpx.TrackSegment;
 import io.jenetics.jpx.WayPoint;
 
+import java.io.IOException;
+import java.nio.file.Path;
 import java.time.Instant;
 import java.util.List;
 
@@ -28,5 +33,13 @@ public class GpxUtils {
                         .build()
         );
     }
-    
+
+    public static List<WayPoint> getPoints(Path path) throws IOException {
+        GPX gpx = GPX.read(path);
+        return gpx.tracks()
+                .flatMap(Track::segments)
+                .flatMap(TrackSegment::points)
+                .toList();
+    }
+
 }
